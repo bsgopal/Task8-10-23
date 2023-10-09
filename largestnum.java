@@ -17,7 +17,7 @@ public class largestnum {
 	int l = num[0];
 	
 	
-	int s = 2;
+	int s = num[0];
 	for(i=1;i<num.length;i++) {
 		if(num[i]>1) {
 			l = num[i];
